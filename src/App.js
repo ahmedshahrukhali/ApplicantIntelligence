@@ -134,6 +134,15 @@ function App() {
   }, [setAppState]);
 
 
+  /*Flask API */
+  const [currentTime, setCurrentTime] = React.useState(0);
+  useEffect(() => {
+    fetch('/api/time').then(res => res.json()).then(data => {
+      setCurrentTime(data.time);
+    });
+  },[]);
+
+
 
 
   return (
@@ -175,6 +184,7 @@ function App() {
                 </form>
             </Grid>
             <Grid item>
+              <p>The current time is: {currentTime}</p>
               <p>CHOOSE YOUR ROLE WISELY</p> 
               <List component="nav" aria-label="main mailbox folders">
                 <ListItem
