@@ -107,9 +107,9 @@ function App() {
 
   const onSubmit = async (data) => {
     const formData = new FormData()
-    formData.append("resume", data.resume[0])
-
-    const res = await fetch("http://localhost:4000/resume", {
+    formData.append("file", data.resume[0])
+    console.log(data.resume[0])
+    const res = await fetch("http://localhost:5000/file-upload", {
       method: "POST",
       body: formData
     }).then(res => res.json())
@@ -141,6 +141,39 @@ function App() {
       setCurrentTime(data.time);
     });
   },[]);
+
+  /* React-Flask API Fetch */
+  class SkillList extends React.Component {
+    state = {
+        skills: []
+    }
+
+    componentDidMount() {
+      fetch('127.0.0.1/5000/api/time')
+      .then((response) => response.json())
+      .then(skillList => {
+          this.setState({ skills: skillList });
+      });
+    }
+  }
+
+  class ProductList extends React.Component {
+    componentDidMount() {
+        // make fetch request
+    }
+    
+    componentWillUnmount() {
+        // make fetch request
+    }
+    
+    render() {
+        return (
+            <ul>
+                <li />
+            </ul>
+        )
+    }
+}
 
 
 
@@ -183,6 +216,8 @@ function App() {
                   <button>Submit</button>
                 </form>
             </Grid>
+
+
             <Grid item>
               <p>The current time is: {currentTime}</p>
               <p>CHOOSE YOUR ROLE WISELY</p> 
