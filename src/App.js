@@ -109,7 +109,7 @@ function App() {
     const formData = new FormData()
     formData.append("file", data.resume[0])
     console.log(data.resume[0])
-    const res = await fetch("http://localhost:5000/file-upload", {
+    const res = await fetch("http://127.0.0.1:5000/file-upload", {
       method: "POST",
       body: formData
     }).then(res => res.json())

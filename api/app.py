@@ -6,14 +6,12 @@ from flask import Flask, request, redirect, jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 
+UPLOAD_FOLDER = "C:/Users/Irtiza/Documents/smproj1/smfe/uploads"
+
 app = Flask(__name__)
 CORS(app)
-
-UPLOAD_FOLDER = "uploads"
-
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
