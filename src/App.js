@@ -82,14 +82,6 @@ function App() {
       
     )
   }
-  const skills = ['Html',
-  'Javascript',
-  'Algorithms',
-  'Api',
-  'Apis',
-  'Aws',
-  'Automation',
-  'Pandas','Electrical','Customer experience','Json','Design','Hive','Spark','R','Spacy','Flex', 'Warehouse', 'Flask']
     
   const Results = () => (
 
@@ -103,6 +95,7 @@ function App() {
   )
   
   /* Upload File */
+  let skills = []
   const { register, handleSubmit } = useForm()
 
   const onSubmit = async (data) => {
@@ -114,6 +107,7 @@ function App() {
       body: formData
     }).then(res => res.json())
     alert(JSON.stringify(res))
+    skills = res
   }
   
   /* LIST API */
@@ -142,38 +136,7 @@ function App() {
     });
   },[]);
 
-  /* React-Flask API Fetch */
-  class SkillList extends React.Component {
-    state = {
-        skills: []
-    }
-
-    componentDidMount() {
-      fetch('127.0.0.1/5000/api/time')
-      .then((response) => response.json())
-      .then(skillList => {
-          this.setState({ skills: skillList });
-      });
-    }
-  }
-
-  class ProductList extends React.Component {
-    componentDidMount() {
-        // make fetch request
-    }
-    
-    componentWillUnmount() {
-        // make fetch request
-    }
-    
-    render() {
-        return (
-            <ul>
-                <li />
-            </ul>
-        )
-    }
-}
+  /* React-Flask API Fetch https://www.pluralsight.com/guides/fetching-data-updating-state-hooks */
 
 
 

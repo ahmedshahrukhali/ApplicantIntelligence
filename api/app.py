@@ -5,6 +5,7 @@ import urllib.request
 from flask import Flask, request, redirect, jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
+from pyresparser import ResumeParser
 
 UPLOAD_FOLDER = "C:/Users/Irtiza/Documents/smproj1/smfe/uploads"
 
@@ -36,10 +37,10 @@ def upload_file():
 		resp.status_code = 400
 		return resp
 	if file and allowed_file(file.filename):
-		print('Add code here to parse resume')
 		filename = secure_filename(file.filename)
 		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-		resp = jsonify({'message' : 'File successfully uploaded'})
+		data = ResumeParser("C:/Users/Irtiza/Documents/smproj1/smfe/uploads/" + filename).get_extracted_data()
+		resp = jsonify(data['skills'])
 		resp.status_code = 201
 		return resp
 	else:
