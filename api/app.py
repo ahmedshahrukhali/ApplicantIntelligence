@@ -1,8 +1,8 @@
 import time
 import os
 import urllib.request
-
-from flask import Flask, request, redirect, jsonify
+import pandas as pd
+from flask import Flask, request, redirect, jsonify, json
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from pyresparser import ResumeParser
@@ -40,7 +40,43 @@ def upload_file():
 		filename = secure_filename(file.filename)
 		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 		data = ResumeParser("C:/Users/Irtiza/Documents/smproj1/smfe/uploads/" + filename).get_extracted_data()
-		resp = jsonify(data['skills'])
+		forpar = pd.read_csv('newfilewhodis.csv')
+		#newresp = forpar.to_dict()
+		datad = pd.Series(data['skills'])
+
+		#presentlist = forpar.Skills[forpar.Skills.isin(data['skills'])].values.tolist()
+		#print(type(presentlist))
+
+		
+
+		lowerforpar = pd.Series([item.lower() for item in forpar.Skills])
+		lowerdatadaf = pd.Series([item.lower() for item in datad])
+
+
+		lista = lowerforpar[~lowerforpar.isin(lowerdatadaf)]  ## SKILLS NOT IN RESUME
+		listb = lowerforpar[lowerforpar.isin(lowerdatadaf)]   ## EXISTS IN RESUME AND SKILL LIST
+		listc = lowerdatadaf[~lowerdatadaf.isin(lowerforpar)] ## SKILLS IN RESUME NOT 
+		
+		respA=lista.tolist()
+		respB=listb.tolist()
+		respC=listc.tolist()
+		#missinglist = forpar.Skills[~forpar.Skills.isin(datadf)].values.tolist()
+		#otherskills = datadf[~datadf.isin(forpar.Skills)]
+
+
+		newdict = {"apple": respA[:10], "ball": respB[:10], "cat": respC[:10]}
+		
+		# newdict.append({"apple": respA[:5], "ball": respB[:5], "cat": respC[:5]})		
+
+		print(type(lista))
+		resp = jsonify(newdict)
+
+
+		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
+		
+
+		### AFTER DONE SEGREGATE RESPONSIBILITY
+
 		resp.status_code = 201
 		return resp
 	else:

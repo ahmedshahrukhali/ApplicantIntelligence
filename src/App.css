@@ -26,6 +26,18 @@ input
   color: white;
 }
 
+.red-results {
+  color: red
+}
+
+.green-results { 
+  color: green
+}
+
+.yellow-results {
+  color: yellow
+}
+
 .App-link {
   color: #61dafb;
 }

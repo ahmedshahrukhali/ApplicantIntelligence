@@ -12,6 +12,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
+import Table from '@material-ui/core/Table';
 
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
@@ -73,24 +74,106 @@ function App() {
     const [showResults, setShowResults] = React.useState(false)
     const onClick = () => setShowResults(true)
     const onClick2 = () => setShowResults(false)
+    
+    const useStyles1 = makeStyles((theme) => ({
+      root: {
+        flexGrow: 1,
+        maxWidth: 752,
+      },
+      demo: {
+        backgroundColor: theme.palette.background.secondary,
+      },
+      title: {
+        margin: theme.spacing(4, 0, 2),
+      },
+    }));
+
+    const classes1 = useStyles1();
+
     return (
       <div>
-        <input type="submit" value="Match" onClick={onClick} />
+        <input type="submit" value="Show" onClick={onClick} />
         <input type="submit" value="Hide" onClick={onClick2} />
-        { showResults ? <Results /> : null }
+
+        <Grid container spacing={2}>
+        <Grid item xs={12} md={4}>
+          <div className={classes.demo}>
+            <List >
+            <Typography variant="h6" className={classes.title}>
+            Missing - Important
+            </Typography>
+                <ListItem>
+                  <ListItemText
+                    primary={ showResults ? <ResultsRequired /> : null }
+                  />
+                </ListItem>
+            </List>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <div className={classes.demo}>
+            <List >
+              <Typography variant="h6" className={classes.title}>
+              Present - Important
+              </Typography>
+                <ListItem>
+                  <ListItemText
+                    primary={ showResults ? <ResultsExisting /> : null }
+                  />
+                </ListItem>
+            </List>
+          </div>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <div className={classes.demo}>
+            <List >
+              <Typography variant="h6" className={classes.title}>
+              Present - Other
+              </Typography>
+                <ListItem>
+                  <ListItemText
+                    primary={ showResults ? <ResultsNotrequired /> : null }
+                  />
+                </ListItem>
+            </List>
+          </div>
+        </Grid>
+        </Grid>
       </div>
-      
     )
   }
-    
-  const Results = () => (
+  
 
-    <div id="results" className="search-results">
-      {skills.map(((item) => (
+  const ResultsRequired = () => (
+    
+    <div id="results" className="green-results">
+      {skills.apple.map((item) => (
         <div key={item}>
           <p>{item}</p>
         </div>
-      )))}
+      ))} 
+    </div>
+  )
+
+  const ResultsExisting = () => (
+    
+    <div id="results" className="yellow-results">
+      {skills.ball.map((item) => (
+        <div key={item}>
+          <p>{item}</p>
+        </div>
+      ))}
+    </div>
+  )
+
+  const ResultsNotrequired = () => (
+    
+    <div id="results" className="red-results">
+      {skills.cat.map((item) => (
+        <div key={item}>
+          <p>{item}</p>
+        </div>
+      ))} 
     </div>
   )
   
@@ -105,10 +188,16 @@ function App() {
     const res = await fetch("http://127.0.0.1:5000/file-upload", {
       method: "POST",
       body: formData
-    }).then(res => res.json())
-    alert(JSON.stringify(res))
-    skills = res
+    }).then(res => res.json()).then(res1 => {
+      const data1 = res1
+      var count1 = Object.keys(data1).length;
+      alert("Found " + count1 + " skills")
+      skills = data1
+      console.log(skills)
+  })
   }
+
+
   
   /* LIST API */
   const ListLoading = withListLoading(ListAPI);
@@ -173,11 +262,12 @@ function App() {
                 }}
                 variant="filled"
               />
+              <form onSubmit={handleSubmit(onSubmit)}>
+                <input {...register('resume')} type="file" />                 
+                <button>Submit</button>
+              </form>
               <Match />
-                <form onSubmit={handleSubmit(onSubmit)}>
-                  <input {...register('resume')} type="file" />                 
-                  <button>Submit</button>
-                </form>
+
             </Grid>
 
 
