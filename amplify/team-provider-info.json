@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "cognito414a63e3": {}
+      },
+      "function": {
+        "skillsapi": {
+          "deploymentBucketName": "amplify-smfe-dev-105434-deployment",
+          "s3Key": "amplify-builds/skillsapi-426751507144332f2f4e-build.zip"
+        }
       }
     }
   }

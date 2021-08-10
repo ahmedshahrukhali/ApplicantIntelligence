@@ -1,6 +1,6 @@
 import time
 import os
-import urllib.request
+import awsgi
 import pandas as pd
 from flask import Flask, request, redirect, jsonify, json
 from werkzeug.utils import secure_filename
@@ -19,8 +19,6 @@ ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 def allowed_file(filename):
 	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-def handler(event, context):
-    return awsgi.response(app, event, context)
 
 @app.route('/file-upload', methods=['POST'])
 def upload_file():
@@ -82,3 +80,6 @@ def upload_file():
 		resp = jsonify({'message' : 'Allowed file types are txt, pdf, png, jpg, jpeg, gif'})
 		resp.status_code = 400
 		return resp
+
+def handler(event, context):
+    return awsgi.response(app, event, context)

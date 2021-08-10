@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/skills",
+      "lambdaFunction": "skillsapi",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/skills"
+    }
+  ],
+  "resourceName": "skillsApi",
+  "apiName": "skillsApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "skillsapi"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-smfe-dev-105434-authRole",
+    "unAuthRoleName": "amplify-smfe-dev-105434-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "skillsapi",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

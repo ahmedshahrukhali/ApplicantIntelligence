@@ -1,0 +1,5 @@
+{
+    "tableName": "skills",
+    "partitionKeyName": "skill",
+    "partitionKeyType": "S"
+}

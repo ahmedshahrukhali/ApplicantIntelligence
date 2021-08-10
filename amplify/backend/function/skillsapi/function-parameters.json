@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "skillbase": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
