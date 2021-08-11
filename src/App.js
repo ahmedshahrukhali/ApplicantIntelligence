@@ -199,12 +199,12 @@ function App() {
     const formData = new FormData()
     formData.append("file", data.resume[0])
     console.log(data.resume[0])
-    // const res = await fetch("http://127.0.0.1:5000/file-upload", {
+    // const res = await fetch("http://127.0.0.1:5000/skills", {
     //   method: "POST",
     //   body: formData
     // })
-
-    const res = await API.post('skillsApi', '/skills').then(res => res.json()).then(res1 => {
+    const res = await API.post('skillsApi', '/skills', {body: formData})
+    .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
       alert("Found " + count1 + " skills")
@@ -232,14 +232,6 @@ function App() {
       });
   }, [setAppState]);
 
-
-  /*Flask API */
-  const [currentTime, setCurrentTime] = React.useState(0);
-  useEffect(() => {
-    fetch('/api/time').then(res => res.json()).then(data => {
-      setCurrentTime(data.time);
-    });
-  },[]);
 
   /* React-Flask API Fetch https://www.pluralsight.com/guides/fetching-data-updating-state-hooks */
 
@@ -288,7 +280,6 @@ function App() {
 
 
             <Grid item>
-              <p>The current time is: {currentTime}</p>
               <p>CHOOSE YOUR ROLE WISELY</p> 
               <List component="nav" aria-label="main mailbox folders">
                 <ListItem
