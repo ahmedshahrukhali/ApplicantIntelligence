@@ -199,11 +199,11 @@ function App() {
     const formData = new FormData()
     formData.append("file", data.resume[0])
     console.log(data.resume[0])
-    // const res = await fetch("http://127.0.0.1:5000/skills", {
-    //   method: "POST",
-    //   body: formData
-    // })
-    const res = await API.post('skillsApi', '/skills', {body: formData})
+    const res = await fetch("http://127.0.0.1:5000/skills", {
+      method: "POST",
+      body: formData
+    })
+    //const res = await API.post('skillsApi', '/skills', {body: formData})
     .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
