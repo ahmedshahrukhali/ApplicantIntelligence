@@ -22,7 +22,7 @@ def allowed_file(filename):
 def handler(event, context):
     return awsgi.response(app, event, context)
 
-@app.route('/file-upload', methods=['POST'])
+@app.route('/skills', methods=['POST'])
 def upload_file():
 	# check if the post request has the file part
 	print(request.files['file'])
