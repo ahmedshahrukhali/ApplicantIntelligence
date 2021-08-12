@@ -18,7 +18,7 @@
       "function": {
         "skillsapi": {
           "deploymentBucketName": "amplify-smfe-dev-105434-deployment",
-          "s3Key": "amplify-builds/skillsapi-426751507144332f2f4e-build.zip"
+          "s3Key": "amplify-builds/skillsapi-365171497a2b6d7a4b7a-build.zip"
         }
       }
     }

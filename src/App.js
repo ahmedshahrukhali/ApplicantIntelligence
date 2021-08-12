@@ -198,12 +198,12 @@ function App() {
   const onSubmit = async (data) => {
     const formData = new FormData()
     formData.append("file", data.resume[0])
-    console.log(data.resume[0])
-    const res = await fetch("http://127.0.0.1:5000/skills", {
-      method: "POST",
-      body: formData
-    })
-    //const res = await API.post('skillsApi', '/skills', {body: formData})
+    // console.log(data.resume[0])
+    // const res = await fetch("http://127.0.0.1:5000/skills", {
+    //   method: "POST",
+    //   body: formData
+    // })
+    const res = await API.post('skillsApi', '/skills', {body: formData})
     .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
@@ -319,7 +319,7 @@ function App() {
               </List>
             </Grid>
           </Grid>
-          <ListLoading isLoading={appState.loading} repos={appState.repos} />
+          {/* <ListLoading isLoading={appState.loading} repos={appState.repos} /> */}
           <img src={logo} className="App-logo" alt="logo" style={{width: '20%'}}/>
         </header>
       </ThemeProvider>

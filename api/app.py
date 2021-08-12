@@ -63,7 +63,7 @@ def upload_file():
 		#otherskills = datadf[~datadf.isin(forpar.Skills)]
 
 
-		newdict = {"apple": respA[:10], "ball": respB[:10], "cat": respC[:10]}
+		newdict = {"apple": respA[:20], "ball": respB[:20], "cat": respC[:20]}
 		
 		# newdict.append({"apple": respA[:5], "ball": respB[:5], "cat": respC[:5]})		
 
