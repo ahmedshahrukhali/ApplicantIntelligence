@@ -34,6 +34,14 @@ import config from './aws-exports'
 import { API } from 'aws-amplify'
 
 
+Amplify.configure(config)
+
+const getData = async () => {
+  const data = await API.get('skillapi', '/file-upload')
+  console.log(data)
+}
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -200,7 +208,7 @@ function App() {
     //   method: "POST",
     //   body: formData
     // })
-   const res = await API.post('skillapi', '/file-upload', {body: formData})
+   const res = await API.post('skillsApi', '/skills', {body: formData})
     .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
