@@ -22,7 +22,7 @@ def allowed_file(filename):
 def handler(event, context):
     return awsgi.response(app, event, context)
 
-@app.route('/skills', methods=['POST'])
+@app.route('/file-upload', methods=['POST'])
 def upload_file():
 	# check if the post request has the file part
 	print(request.files['file'])
@@ -62,7 +62,9 @@ def upload_file():
 		#missinglist = forpar.Skills[~forpar.Skills.isin(datadf)].values.tolist()
 		#otherskills = datadf[~datadf.isin(forpar.Skills)]
 
-
+		respA=[resp.capitalize() for resp in respA]
+		respB=[resp.capitalize() for resp in respB]
+		respC=[resp.capitalize() for resp in respC]
 		newdict = {"apple": respA[:20], "ball": respB[:20], "cat": respC[:20]}
 		
 		# newdict.append({"apple": respA[:5], "ball": respB[:5], "cat": respC[:5]})		

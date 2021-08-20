@@ -11,8 +11,11 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import Table from '@material-ui/core/Table';
+import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+
 
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
@@ -160,10 +163,12 @@ function App() {
 
   const ResultsRequired = () => (
     
-    <div id="results" className="green-results">
+    <div id="results">
       {skills.apple.map((item) => (
         <div key={item}>
-          <p>{item}</p>
+          <Card>
+          <p className="green-results">{item}</p>
+          </Card>
         </div>
       ))} 
     </div>
@@ -198,12 +203,12 @@ function App() {
   const onSubmit = async (data) => {
     const formData = new FormData()
     formData.append("file", data.resume[0])
-    // console.log(data.resume[0])
-    // const res = await fetch("http://127.0.0.1:5000/skills", {
-    //   method: "POST",
-    //   body: formData
-    // })
-    const res = await API.post('skillsApi', '/skills', {body: formData})
+    console.log(data.resume[0])
+    const res = await fetch("http://127.0.0.1:5000/file-upload", {
+      method: "POST",
+      body: formData
+    })
+//    const res = await API.post('skillsApi', '/skills', {body: formData})
     .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
@@ -280,24 +285,21 @@ function App() {
 
 
             <Grid item>
-              <p>CHOOSE YOUR ROLE WISELY</p> 
+              <h2>Target Role</h2> 
               <List component="nav" aria-label="main mailbox folders">
                 <ListItem
                   button
                   selected={selectedIndex === 0}
                   onClick={(event) => handleListItemClick(event, 0)}
                 >
-                  <ListItemIcon>
-                    <InboxIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="SWE" />
+                  <ListItemText primary="Software Engineer" />
                 </ListItem>
                 <ListItem
                   button
                   selected={selectedIndex === 1}
                   onClick={(event) => handleListItemClick(event, 1)}
                 >
-                  <ListItemText primary="DS" />
+                  <ListItemText primary="Data Scientist" />
                 </ListItem>
               </List>
               <Divider />
@@ -307,14 +309,14 @@ function App() {
                   selected={selectedIndex === 2}
                   onClick={(event) => handleListItemClick(event, 2)}
                 >
-                  <ListItemText primary="UXD" />
+                  <ListItemText primary="Project Manager" />
                 </ListItem>
                 <ListItem
                   button
                   selected={selectedIndex === 3}
                   onClick={(event) => handleListItemClick(event, 3)}
                 >
-                  <ListItemText primary="BSA" />
+                  <ListItemText primary="Product Manager" />
                 </ListItem>
               </List>
             </Grid>

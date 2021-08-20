@@ -29,21 +29,5 @@
         }
       ]
     }
-  },
-  "api": {
-    "skillsApi": {
-      "service": "API Gateway",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [
-        {
-          "category": "function",
-          "resourceName": "skillsapi",
-          "attributes": [
-            "Name",
-            "Arn"
-          ]
-        }
-      ]
-    }
   }
 }
