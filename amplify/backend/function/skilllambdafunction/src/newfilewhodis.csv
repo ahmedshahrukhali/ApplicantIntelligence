@@ -1,0 +1,1008 @@
+index,Skills,Count,Count2
+0,Python,Python,782
+1,SQL,SQL,886
+2,machine learning,machine learning,886
+3,R,R,4278
+4,data science,data science,605
+5,data visualization tools,data visualization tools,36
+6,Data Scientist,Data Scientist,510
+7,data mining,data mining,136
+8,data analysis,data analysis,252
+9,Data Science,Data Science,438
+10,AWS,AWS,284
+11,relational databases,relational databases,41
+12,SAS,SAS,142
+13,one,one,1521
+14,Machine Learning,Machine Learning,318
+15,models,models,1002
+16,libraries,libraries,111
+17,customers,customers,748
+18,programming languages,programming languages,87
+19,testing,testing,354
+20,tools,tools,1002
+21,field,field,549
+22,analytics,analytics,980
+23,Experience,Experience,1860
+24,Tableau,Tableau,277
+25,big data technologies,big data technologies,15
+26,Data Analysis,Data Analysis,51
+27,Java,Java,268
+28,Databases,Databases,29
+29,JavaScript,JavaScript,77
+30,related field,related field,172
+31,more,more,946
+32,role,role,793
+33,software engineering,software engineering,58
+34,statistics,statistics,237
+35,systems,systems,689
+36,advanced analytics,advanced analytics,110
+37,application,application,760
+38,software development,software development,163
+39,Docker,Docker,102
+40,Analytics,Analytics,486
+41,Engineering,Engineering,406
+42,degree,degree,609
+43,design,design,1031
+44,statistical analysis,statistical analysis,83
+45,big data tools,big data tools,23
+46,data science tools,data science tools,29
+47,natural language processing,natural language processing,49
+48,Computer Science,Computer Science,350
+49,Looker,Looker,97
+50,equivalent combination,equivalent combination,35
+51,Statistics,Statistics,251
+52,project management,project management,31
+53,etc,etc,555
+54,experience,experience,3050
+55,techniques,techniques,568
+56,years,years,1117
+57,data visualization,data visualization,147
+58,modeling,modeling,295
+59,B testing,B testing,72
+60,associated frameworks,associated frameworks,9
+61,AdTech,AdTech,8
+62,DevOps,DevOps,62
+63,Java programming,Java programming,12
+64,OpenText Magellan,OpenText Magellan,8
+65,Unix,Unix,46
+66,computer vision,computer vision,52
+67,databases,databases,238
+68,machine learning roles,machine learning roles,8
+69,mathematics,mathematics,83
+70,optimization,optimization,200
+71,AI platform,AI platform,17
+72,Data Analytics,Data Analytics,72
+73,Google Cloud,Google Cloud,69
+74,NLP,NLP,186
+75,cloud technologies,cloud technologies,11
+76,data engineering,data engineering,59
+77,financial,financial,246
+78,following,following,151
+79,insurance,insurance,228
+80,marketing analytics,marketing analytics,11
+81,relevant technology stacks,relevant technology stacks,7
+82,services,services,752
+83,statistical modelling techniques,statistical modelling techniques,7
+84,Kubernetes,Kubernetes,61
+85,NLP techniques,NLP techniques,15
+86,PySpark,PySpark,14
+87,React,React,81
+88,advertising,advertising,71
+89,data,data,7703
+90,data analytics,data analytics,128
+91,employees,employees,509
+92,GIS,GIS,15
+93,Hadoop,Hadoop,99
+94,NoSQL,NoSQL,52
+95,Spark,Spark,186
+96,common data science toolkits,common data science toolkits,5
+97,modelling,modelling,108
+98,ETL,ETL,137
+99,data modelling,data modelling,18
+100,Analytics professional,Analytics professional,16
+101,Administrative,Administrative,14
+102,Customer Service,Customer Service,18
+103,Document Control,Document Control,12
+104,Field Services,Field Services,37
+105,Gas,Gas,12
+106,Information Systems,Information Systems,31
+107,Oil,Oil,12
+108,Project Management,Project Management,17
+109,Quality,Quality,40
+110,Go,Go,574
+111,Objective C,Objective C,8
+112,Oracle,Oracle,55
+113,Successful candidates,Successful candidates,14
+114,cloud development,cloud development,9
+115,data sets,data sets,303
+116,kubernetes,kubernetes,10
+117,mobile application development,mobile application development,10
+118,part,part,1740
+119,personal touch,personal touch,8
+120,programming,programming,369
+121,students,students,90
+122,teaching role,teaching role,8
+123,understanding,understanding,512
+124,any,any,1741
+125,classical machine,classical machine,7
+126,cloud services,cloud services,37
+127,languages,languages,214
+128,operational research,operational research,7
+129,recommender engine,recommender engine,8
+130,report development,report development,14
+131,similar visualization platform,similar visualization platform,7
+132,NoSQL databases,NoSQL databases,22
+133,analysis,analysis,1069
+134,channels,channels,30
+135,computing language,computing language,7
+136,deep knowledge,deep knowledge,27
+137,frameworks,frameworks,213
+138,general purpose programming languages,general purpose programming languages,10
+139,job,job,366
+140,large data environment,large data environment,7
+141,like environments,like environments,6
+142,methods,methods,245
+143,operations,operations,243
+144,production architecture,production architecture,8
+145,reporting,reporting,315
+146,scale data analysis,scale data analysis,12
+147,similar role,similar role,11
+148,strategy,strategy,222
+149,web analytics tools,web analytics tools,11
+150,Redux,Redux,20
+151,analytical roles,analytical roles,5
+152,continuous delivery,continuous delivery,11
+153,data analyst,data analyst,37
+154,data pipeline,data pipeline,124
+155,frontend development,frontend development,5
+156,knowledge,knowledge,754
+157,learn,learn,2043
+158,machine learning methodologies,machine learning methodologies,12
+159,marketing,marketing,301
+160,model development,model development,55
+161,python,python,33
+162,variety,variety,248
+163,web application development,web application development,8
+164,you,you,5389
+165,Applied Mathematics,Applied Mathematics,37
+166,ETL tools,ETL tools,16
+167,Education,Education,124
+168,Pandas,Pandas,72
+169,algorithms,algorithms,377
+170,business reporting tools,business reporting tools,4
+171,cartography,cartography,4
+172,data modeling,data modeling,52
+173,data science role,data science role,6
+174,development,development,1194
+175,healthcare,healthcare,99
+176,other tools,other tools,7
+177,source libraries,source libraries,8
+178,statistical modeling,statistical modeling,40
+179,statistical modeling tools,statistical modeling tools,4
+180,surveying,surveying,12
+181,ARCore,ARCore,6
+182,ARFoundation,ARFoundation,3
+183,ARKit,ARKit,6
+184,Azure Monitor,Azure Monitor,3
+185,CloudWatch,CloudWatch,6
+186,IoT,IoT,25
+187,Linux,Linux,104
+188,Open Telemetry,Open Telemetry,3
+189,Prometheus monitoring,Prometheus monitoring,3
+190,VR,VR,3
+191,advanced software engineering practices,advanced software engineering practices,3
+192,applications,applications,422
+193,concepts,concepts,155
+194,desktop applications,desktop applications,3
+195,game console development,game console development,3
+196,games,games,96
+197,handling,handling,35
+198,iOS,iOS,17
+199,industry,industry,647
+200,software engineer,software engineer,130
+201,strong understanding,strong understanding,21
+202,visualization,visualization,350
+203,visualization tools,visualization tools,86
+204,architecture,architecture,278
+205,creation,creation,98
+206,use,use,1980
+207,Apache Airflow,Apache Airflow,5
+208,MLOps,MLOps,53
+209,Power BI,Power BI,72
+210,deep learning frameworks,deep learning frameworks,15
+211,deepfake technology Experience,deepfake technology Experience,5
+212,machine learning models,machine learning models,76
+213,observational causal inference,observational causal inference,5
+214,packages,packages,116
+215,series analysis,series analysis,17
+216,text analytics methods,text analytics methods,5
+217,time series forecasting,time series forecasting,8
+218,AI techniques,AI techniques,17
+219,DevOps principles,DevOps principles,4
+220,Google Cloud Platform,Google Cloud Platform,21
+221,HTML/ Java script,HTML/ Java script,4
+222,ML,ML,640
+223,analytical programming,analytical programming,4
+224,big data analytics,big data analytics,8
+225,business data analyst,business data analyst,4
+226,cloud computing platforms,cloud computing platforms,21
+227,computer science,computer science,112
+228,containerization,containerization,11
+229,cross-functional teams,cross-functional teams,30
+230,customer,customer,1247
+231,data processing,data processing,44
+232,data science toolkits,data science toolkits,9
+233,data wrangling,data wrangling,17
+234,deep learning algorithms,deep learning algorithms,16
+235,engineering,engineering,450
+236,implementation,implementation,228
+237,large unstructured datasets,large unstructured datasets,4
+238,major Big Data technologies,major Big Data technologies,4
+239,mathematical modelling tools,mathematical modelling tools,4
+240,pandas,pandas,32
+241,science team,science team,24
+242,source programming languages,source programming languages,7
+243,statistical programming tools,statistical programming tools,4
+244,web,web,324
+245,Additional Requirements,Additional Requirements,3
+246,BI,BI,293
+247,Big Data Ecosystem,Big Data Ecosystem,3
+248,Computational Physics,Computational Physics,3
+249,Contributors,Contributors,3
+250,Customers,Customers,18
+251,DOM,DOM,16
+252,Data Engineering role,Data Engineering role,3
+253,DataHub,DataHub,15
+254,Economics,Economics,86
+255,Github,Github,7
+256,Google cloud services,Google cloud services,3
+257,Guidewire DataHub,Guidewire DataHub,6
+258,HR space,HR space,10
+259,Informatica Knowledge,Informatica Knowledge,3
+260,Kanban,Kanban,5
+261,Lodash,Lodash,3
+262,Natural Language,Natural Language,24
+263,Neural Network,Neural Network,7
+264,Node,Node,50
+265,Operations Research,Operations Research,38
+266,P&C Insurance setting,P&C Insurance setting,3
+267,Personal Lines,Personal Lines,6
+268,Predictive Modelling,Predictive Modelling,3
+269,Processing,Processing,40
+270,Redshift,Redshift,37
+271,SAFe agile methodology,SAFe agile methodology,3
+272,SOA architecture,SOA architecture,3
+273,Science,Science,887
+274,Scrum,Scrum,11
+275,Snowflake,Snowflake,49
+276,TypeScript,TypeScript,6
+277,agile environment,agile environment,13
+278,analysis techniques,analysis techniques,25
+279,authentication,authentication,13
+280,benefit,benefit,375
+281,big data analysis,big data analysis,5
+282,billing data,billing data,3
+283,business stakeholders Experience,business stakeholders Experience,3
+284,commercial aspects,commercial aspects,3
+285,data viewers,data viewers,3
+286,declarative infrastructure,declarative infrastructure,6
+287,digital marketing,digital marketing,55
+288,end software development,end software development,6
+289,enterprise level organizations,enterprise level organizations,3
+290,feasibility,feasibility,8
+291,full stack software development,full stack software development,3
+292,identity,identity,224
+293,impact,impact,594
+294,life sciences,life sciences,17
+295,machine learning platforms,machine learning platforms,12
+296,maintenance,maintenance,76
+297,mineral processing,mineral processing,3
+298,modern browser technologies,modern browser technologies,3
+299,most,most,312
+300,other analytics degree,other analytics degree,3
+301,other marketing fields,other marketing fields,3
+302,policy center,policy center,6
+303,popular machine learning frameworks,popular machine learning frameworks,4
+304,popular optimization framework,popular optimization framework,3
+305,predictive modeling,predictive modeling,50
+306,process control,process control,6
+307,processes,processes,388
+308,product,product,2302
+309,relational SQL,relational SQL,8
+310,risk assessment,risk assessment,7
+311,shell scripting,shell scripting,14
+312,side languages,side languages,3
+313,supply chain,supply chain,35
+314,system design,system design,19
+315,time systems,time systems,6
+316,utilities,utilities,19
+317,various deep learning models,various deep learning models,3
+318,web application framework,web application framework,3
+319,web applications,web applications,29
+320,AI,AI,745
+321,Apple platforms,Apple platforms,2
+322,Azure ML,Azure ML,8
+323,Big Data technologies,Big Data technologies,10
+324,Clustering,Clustering,9
+325,Databricks,Databricks,44
+326,Excel,Excel,522
+327,Hands,Hands,67
+328,Keras,Keras,41
+329,Machine Learning frameworks,Machine Learning frameworks,3
+330,Understanding,Understanding,113
+331,analytics role,analytics role,5
+332,analyzing,analyzing,143
+333,animation pipeline role,animation pipeline role,2
+334,automation,automation,90
+335,bandits,bandits,6
+336,business intelligence,business intelligence,70
+337,cleaning,cleaning,41
+338,cloud platforms,cloud platforms,18
+339,commercials,commercials,6
+340,computing tools,computing tools,10
+341,counterfactual analysis,counterfactual analysis,2
+342,data transformation,data transformation,22
+343,database technologies,database technologies,10
+344,deep learning methodologies,deep learning methodologies,2
+345,distributive computing environments,distributive computing environments,2
+346,end framework,end framework,11
+347,exploration,exploration,58
+348,extracting,extracting,41
+349,film,film,15
+350,forecasting,forecasting,76
+351,mining,mining,213
+352,mobile development,mobile development,4
+353,policy learning,policy learning,2
+354,product data science,product data science,2
+355,proficient coding skills,proficient coding skills,2
+356,quantitative analysis,quantitative analysis,33
+357,reinforcement learning,reinforcement learning,33
+358,related role,related role,4
+359,render managers,render managers,2
+360,revision control systems,revision control systems,2
+361,sales,sales,169
+362,source NLP toolkits,source NLP toolkits,2
+363,source tools,source tools,13
+364,statistical packages,statistical packages,13
+365,technologies,technologies,520
+366,working,working,1298
+367,Life Sciences,Life Sciences,19
+368,Long Term Post Acute Care,Long Term Post Acute Care,8
+369,Apache Spark,Apache Spark,17
+370,Biostatistics,Biostatistics,27
+371,Yardi,Yardi,5
+372,data delivery industry,data delivery industry,4
+373,graph analytics,graph analytics,5
+374,list generation tools,list generation tools,4
+375,other technologies,other technologies,12
+376,parallel processing techniques,parallel processing techniques,4
+377,relevant areas,relevant areas,4
+378,segmentation techniques Practical experience,segmentation techniques Practical experience,4
+379,Answering,Answering,3
+380,CE,CE,77
+381,CS,CS,88
+382,Data Warehousing,Data Warehousing,9
+383,JavaScript front end frameworks,JavaScript front end frameworks,3
+384,LSTM,LSTM,17
+385,MarTech,MarTech,3
+386,NLP packages,NLP packages,3
+387,PC,PC,47
+388,PDF parsing,PDF parsing,3
+389,PLSQL Well,PLSQL Well,3
+390,Python languages,Python languages,3
+391,Python scripting,Python scripting,3
+392,Pytorch,Pytorch,24
+393,QA,QA,19
+394,RNN,RNN,16
+395,SPARK,SPARK,9
+396,TFiDF,TFiDF,3
+397,Text Classification,Text Classification,3
+398,Text Summarization,Text Summarization,3
+399,Topic Modelling,Topic Modelling,3
+400,Transformers,Transformers,15
+401,access,access,441
+402,activities,activities,103
+403,analytics technology products,analytics technology products,3
+404,aptitude,aptitude,44
+405,areas,areas,217
+406,business needs,business needs,101
+407,call center data,call center data,3
+408,candidate,candidate,567
+409,common NLP problems,common NLP problems,3
+410,common Node.js frameworks,common Node.js frameworks,3
+411,completion,completion,42
+412,conception,conception,33
+413,content,content,134
+414,continuous integration,continuous integration,17
+415,continuous training,continuous training,6
+416,cross-functional organization,cross-functional organization,3
+417,data ETL,data ETL,5
+418,data governance policies,data governance policies,5
+419,data science packages,data science packages,3
+420,data science type area,data science type area,3
+421,demand,demand,91
+422,deployment,deployment,135
+423,equivalent position,equivalent position,3
+424,equivalent practical experience,equivalent practical experience,21
+425,estimation,estimation,13
+426,extensive catalog,extensive catalog,3
+427,frontend software development,frontend software development,3
+428,granular data analysis,granular data analysis,3
+429,home shoppers,home shoppers,3
+430,industry building,industry building,3
+431,infrastructure,infrastructure,190
+432,integration,integration,159
+433,large data sets,large data sets,110
+434,machine learning development,machine learning development,11
+435,marketing analyst role Graduate degree,marketing analyst role Graduate degree,3
+436,matrixed organization,matrixed organization,3
+437,more testing tools,more testing tools,3
+438,numpy,numpy,16
+439,operations field,operations field,3
+440,other data query language,other data query language,3
+441,other data systems,other data systems,3
+442,other embeddings,other embeddings,3
+443,performance,performance,540
+444,popular data visualization libraries,popular data visualization libraries,3
+445,pre/post-trade analysis,pre/post-trade analysis,3
+446,predictive analytics,predictive analytics,15
+447,quantitative modeling,quantitative modeling,4
+448,real data sets,real data sets,3
+449,scripting,scripting,115
+450,senior level,senior level,7
+451,side data processing,side data processing,3
+452,solutions,solutions,1201
+453,standards,standards,136
+454,supply prediction,supply prediction,3
+455,surfaces,surfaces,3
+456,tier consulting firm,tier consulting firm,3
+457,visualizations,visualizations,96
+458,APIHTTP requests,APIHTTP requests,2
+459,AWS infrastructure,AWS infrastructure,2
+460,AWS services,AWS services,27
+461,AWS technologies,AWS technologies,5
+462,Agile software development practices,Agile software development practices,2
+463,Agile testing methodologies,Agile testing methodologies,2
+464,Angular,Angular,19
+465,Artificial Intelligence,Artificial Intelligence,37
+466,Azure Analysis Service structures,Azure Analysis Service structures,2
+467,Azure Data Lake,Azure Data Lake,8
+468,Azure SQL DB,Azure SQL DB,6
+469,Azure Storage,Azure Storage,2
+470,Azure Synapse,Azure Synapse,3
+471,B testing frameworks,B testing frameworks,2
+472,Blockchain technology,Blockchain technology,2
+473,Business Analyst,Business Analyst,8
+474,Business Intelligence tools,Business Intelligence tools,7
+475,CD pipelines,CD pipelines,13
+476,Cloudera,Cloudera,3
+477,Complex SQL queries,Complex SQL queries,2
+478,Credit Risk,Credit Risk,3
+479,DB2,DB2,19
+480,Data Analyst,Data Analyst,270
+481,Data Science solutions productionalization,Data Science solutions productionalization,2
+482,Data Warehouse,Data Warehouse,40
+483,Deployment,Deployment,6
+484,Designing Data mart,Designing Data mart,2
+485,Diversity,Diversity,57
+486,Dockers,Dockers,2
+487,Express,Express,12
+488,Finance,Finance,64
+489,Financial industry,Financial industry,2
+490,Flutter,Flutter,24
+491,Functions,Functions,9
+492,Inclusion,Inclusion,55
+493,Insurance Data,Insurance Data,2
+494,Jupyter,Jupyter,28
+495,ML pipelines,ML pipelines,2
+496,MLOps lifecycle,MLOps lifecycle,2
+497,MS SQL,MS SQL,9
+498,Metabase,Metabase,3
+499,Microsoft BI tool Development,Microsoft BI tool Development,2
+500,NodeJS,NodeJS,13
+501,ODM,ODM,2
+502,Pivotal Gemfire Grid,Pivotal Gemfire Grid,2
+503,Power BI reports,Power BI reports,2
+504,PowerBI,PowerBI,60
+505,Qlik,Qlik,15
+506,RESTful web services,RESTful web services,3
+507,SAP,SAP,29
+508,SOLID principles,SOLID principles,2
+509,SQL Server,SQL Server,35
+510,SQL Stored Procedures,SQL Stored Procedures,2
+511,SSAS,SSAS,10
+512,SSRS,SSRS,9
+513,Scala,Scala,53
+514,Supply Chain,Supply Chain,14
+515,Sybase,Sybase,13
+516,TDD programming,TDD programming,2
+517,Unity 3D,Unity 3D,2
+518,Unreal,Unreal,17
+519,Veeva CRM,Veeva CRM,2
+520,Web Desktop,Web Desktop,2
+521,ability,ability,1259
+522,applied analytics,applied analytics,10
+523,aspects,aspects,124
+524,background,background,291
+525,best practices,best practices,194
+526,bioinformatics,bioinformatics,16
+527,bug tracking,bug tracking,2
+528,building algorithms,building algorithms,5
+529,classification systems,classification systems,2
+530,cloud computing technologies,cloud computing technologies,2
+531,cloud environments,cloud environments,11
+532,cloud infrastructures,cloud infrastructures,2
+533,commodity definitions,commodity definitions,2
+534,common design patterns,common design patterns,2
+535,communications technologies,communications technologies,2
+536,container technologies,container technologies,2
+537,contract research industry,contract research industry,2
+538,core analytics methods,core analytics methods,2
+539,data analysis workflows,data analysis workflows,2
+540,data analytics strategy,data analytics strategy,2
+541,data base managers,data base managers,2
+542,data formats,data formats,2
+543,data mappings,data mappings,4
+544,data models,data models,81
+545,data orchestration,data orchestration,2
+546,data visualization software package,data visualization software package,2
+547,database management,database management,10
+548,dataviz tools,dataviz tools,2
+549,design architecture,design architecture,2
+550,development teams,development teams,18
+551,different types,different types,7
+552,economic research,economic research,2
+553,end application development,end application development,2
+554,end development tools,end development tools,2
+555,enterprise software,enterprise software,2
+556,evaluation,evaluation,59
+557,exceptional ability,exceptional ability,2
+558,featured game engines,featured game engines,2
+559,financial data,financial data,10
+560,growth experiments,growth experiments,4
+561,insight extraction,insight extraction,2
+562,issue tracking tools,issue tracking tools,2
+563,laboratory research,laboratory research,2
+564,mapping,mapping,37
+565,medium team management,medium team management,2
+566,microservice architecture,microservice architecture,2
+567,more general purpose programming languages,more general purpose programming languages,4
+568,non-relational,non-relational,3
+569,observability platforms,observability platforms,2
+570,online multiplayer development,online multiplayer development,2
+571,other RDBMS,other RDBMS,3
+572,other programming language,other programming language,9
+573,other tech stacks,other tech stacks,2
+574,parallel computing infrastructures,parallel computing infrastructures,2
+575,perception,perception,3
+576,performance tuning,performance tuning,7
+577,popular React JS workflows,popular React JS workflows,2
+578,related technical field,related technical field,20
+579,relational,relational,95
+580,relational database environments,relational database environments,2
+581,report creation,report creation,2
+582,requirements analysis,requirements analysis,3
+583,same tools,same tools,2
+584,scripting language,scripting language,39
+585,senior quantitative role,senior quantitative role,2
+586,serverless cloud deployment architectures,serverless cloud deployment architectures,2
+587,signal processing,signal processing,6
+588,small businesses,small businesses,6
+589,software,software,901
+590,software development life cycle,software development life cycle,3
+591,statistical software package,statistical software package,2
+592,target,target,80
+593,team members,team members,254
+594,throughput data generation,throughput data generation,2
+595,time internship,time internship,2
+596,tooling,tooling,36
+597,version control tools,version control tools,10
+598,views,views,102
+599,visualization best practices,visualization best practices,4
+600,writing queries,writing queries,3
+601,AI technologies,AI technologies,8
+602,ANN frameworks,ANN frameworks,1
+603,ASICs,ASICs,3
+604,Ability,Ability,432
+605,Access,Access,85
+606,Agile,Agile,118
+607,Agile Scrum,Agile Scrum,1
+608,Agile environment,Agile environment,16
+609,Agile environments,Agile environments,1
+610,Agile team,Agile team,3
+611,Airflow,Airflow,44
+612,Amazon,Amazon,110
+613,Amazon Web Services,Amazon Web Services,24
+614,Azure Data Platform,Azure Data Platform,3
+615,Azure cloud services,Azure cloud services,2
+616,Azure services,Azure services,1
+617,B2C markets,B2C markets,1
+618,BI Analyst,BI Analyst,1
+619,BI platform,BI platform,2
+620,BI software,BI software,1
+621,BI tools,BI tools,15
+622,Baysian non-parametric methods,Baysian non-parametric methods,1
+623,Big Data Technologies,Big Data Technologies,1
+624,BigQuery,BigQuery,31
+625,C#,C#,54
+626,C++,C++,103
+627,C.,C.,39
+628,CRM environments,CRM environments,1
+629,CSS,CSS,32
+630,Classification,Classification,12
+631,Cloud data technology,Cloud data technology,1
+632,Cloud technologies,Cloud technologies,1
+633,Cognos,Cognos,12
+634,Customer Analytics,Customer Analytics,3
+635,Data Analyst role,Data Analyst role,5
+636,Data Center fabrics,Data Center fabrics,1
+637,Data Engineer,Data Engineer,82
+638,Data Monitoring,Data Monitoring,1
+639,Data Science role,Data Science role,1
+640,Data Science tools,Data Science tools,1
+641,Data Scientist role,Data Scientist role,6
+642,Data Visualisation,Data Visualisation,1
+643,Data Visualization platforms,Data Visualization platforms,1
+644,DataDog,DataDog,5
+645,Database Monitoring,Database Monitoring,1
+646,Demand Forecasting,Demand Forecasting,4
+647,Dev Ops,Dev Ops,1
+648,Domo,Domo,17
+649,EPC,EPC,1
+650,ETL technologies,ETL technologies,1
+651,EXCEL,EXCEL,1
+652,End User Reporting Tools,End User Reporting Tools,1
+653,Engineering Document Management,Engineering Document Management,1
+654,Engineering Information Systems,Engineering Information Systems,1
+655,Excellent,Excellent,307
+656,Exposure,Exposure,31
+657,Financial data,Financial data,1
+658,Fraud Detection platform setup,Fraud Detection platform setup,1
+659,GIT,GIT,11
+660,Gaming industry,Gaming industry,1
+661,Geoscience,Geoscience,2
+662,Good team player,Good team player,1
+663,Google Ad Manager,Google Ad Manager,1
+664,Google Analytics,Google Analytics,46
+665,Google BigQuery,Google BigQuery,3
+666,Google Cloud Platform services,Google Cloud Platform services,1
+667,GraphQL,GraphQL,13
+668,HVAC control system design,HVAC control system design,1
+669,Information Technology,Information Technology,10
+670,Jupyter environment,Jupyter environment,2
+671,Lead Consultant,Lead Consultant,1
+672,ML algorithms,ML algorithms,19
+673,MPP database technologies,MPP database technologies,1
+674,MRI image reconstruction,MRI image reconstruction,1
+675,Machine,Machine,352
+676,Machine Learning Engineer,Machine Learning Engineer,11
+677,Machine Learning Project management experience,Machine Learning Project management experience,1
+678,Machine Learning tools,Machine Learning tools,1
+679,Medical Image Analysis,Medical Image Analysis,2
+680,Microservice Architecture,Microservice Architecture,1
+681,Microsoft Azure,Microsoft Azure,30
+682,Microsoft Azure Stack,Microsoft Azure Stack,1
+683,Microsoft BI tools,Microsoft BI tools,1
+684,Model Deployment,Model Deployment,1
+685,Modeling,Modeling,13
+686,Multiple OS platforms,Multiple OS platforms,1
+687,Mxnet,Mxnet,1
+688,Natural Language Processing,Natural Language Processing,18
+689,OBIEE,OBIEE,1
+690,ORMs,ORMs,2
+691,Operators,Operators,1
+692,Optimization,Optimization,20
+693,Oracle Financial,Oracle Financial,1
+694,P4,P4,2
+695,PowerShell,PowerShell,4
+696,Practical experience,Practical experience,15
+697,Proficiency,Proficiency,104
+698,Project Management/ Program Management,Project Management/ Program Management,1
+699,PyTorch,PyTorch,50
+700,Regression,Regression,6
+701,Robot Operating System,Robot Operating System,1
+702,SDK,SDK,9
+703,SOTA classification,SOTA classification,1
+704,SPLUNK,SPLUNK,1
+705,SPSS,SPSS,33
+706,SQL knowledge,SQL knowledge,15
+707,STATA,STATA,4
+708,SaaS industry,SaaS industry,1
+709,SaaS software company,SaaS software company,1
+710,Salesforce,Salesforce,25
+711,Segmentation,Segmentation,5
+712,SolarWinds,SolarWinds,1
+713,Spark framework,Spark framework,1
+714,Telecom environment,Telecom environment,1
+715,TensorFlow,TensorFlow,77
+716,Tensorflow,Tensorflow,30
+717,Time Forecasting series,Time Forecasting series,1
+718,Time Series Analysis,Time Series Analysis,2
+719,Torch,Torch,53
+720,UFC Mobile players,UFC Mobile players,1
+721,UNIX tools,UNIX tools,1
+722,WMS systems,WMS systems,1
+723,Windows administration,Windows administration,1
+724,addition,addition,109
+725,advanced statistical modeling techniques,advanced statistical modeling techniques,1
+726,advanced statistical techniques,advanced statistical techniques,12
+727,advisory role,advisory role,5
+728,agile methodology,agile methodology,7
+729,agriculture industry,agriculture industry,1
+730,analyst,analyst,169
+731,analytic ecosystem,analytic ecosystem,1
+732,analytic techniques,analytic techniques,5
+733,analytic tools,analytic tools,7
+734,analytical mindset,analytical mindset,5
+735,analytical projects,analytical projects,4
+736,analytical tools,analytical tools,28
+737,anomaly,anomaly,21
+738,application design,application design,8
+739,applied data science,applied data science,3
+740,applying,applying,190
+741,behavioural data,behavioural data,1
+742,big data platforms,big data platforms,9
+743,big data processing frameworks,big data processing frameworks,1
+744,big data repositories,big data repositories,1
+745,business reporting,business reporting,5
+746,business requirements,business requirements,70
+747,business understanding,business understanding,5
+748,buying,buying,25
+749,change management,change management,22
+750,changes,changes,147
+751,cleansing,cleansing,38
+752,client interactions,client interactions,1
+753,clinical research,clinical research,13
+754,cloud environment,cloud environment,27
+755,cloud platform,cloud platform,25
+756,cloud provider,cloud provider,9
+757,cloud providers,cloud providers,1
+758,cloud space,cloud space,1
+759,co-op,co-op,11
+760,coding,coding,86
+761,collaboration,collaboration,303
+762,commercial mobile analytic tools,commercial mobile analytic tools,1
+763,common interoperability standards,common interoperability standards,1
+764,common libraries,common libraries,1
+765,common software development flows,common software development flows,1
+766,complex analytical assignments,complex analytical assignments,1
+767,complex data processing,complex data processing,1
+768,compliance technology,compliance technology,1
+769,computing frameworks,computing frameworks,1
+770,consultant,consultant,32
+771,consumer insights,consumer insights,6
+772,consumer lending environment,consumer lending environment,1
+773,continuous integration tools,continuous integration tools,1
+774,conversion,conversion,25
+775,core analytic methods,core analytic methods,1
+776,credit risk modeling,credit risk modeling,2
+777,credit scoring,credit scoring,1
+778,current software development tools,current software development tools,1
+779,cute bears,cute bears,1
+780,dashboarding tools,dashboarding tools,4
+781,data ETL processes,data ETL processes,1
+782,data analytics role,data analytics role,1
+783,data applications,data applications,4
+784,data architecture,data architecture,30
+785,data build tool,data build tool,2
+786,data consulting experience,data consulting experience,1
+787,data curation,data curation,1
+788,data integration,data integration,17
+789,data management,data management,64
+790,data manipulation,data manipulation,43
+791,data manipulation technologies,data manipulation technologies,1
+792,data mining themes,data mining themes,1
+793,data mining tools,data mining tools,1
+794,data platforms,data platforms,29
+795,data presentation,data presentation,1
+796,data privacy regulations,data privacy regulations,1
+797,data scientist,data scientist,261
+798,data scientist discipline,data scientist discipline,1
+799,data scripting languages,data scripting languages,1
+800,data stack,data stack,2
+801,data tools,data tools,36
+802,data visualisation tools,data visualisation tools,3
+803,data visualization applications,data visualization applications,1
+804,data warehouses,data warehouses,22
+805,data warehousing,data warehousing,18
+806,database design,database design,18
+807,database development,database development,2
+808,dbt,dbt,12
+809,deep learning libraries,deep learning libraries,4
+810,deep learning methods,deep learning methods,2
+811,deep neural networks architectures,deep neural networks architectures,5
+812,desktop environment,desktop environment,1
+813,development tools,development tools,9
+814,different recommender systems,different recommender systems,1
+815,digital advertising,digital advertising,17
+816,digital analytics metrics,digital analytics metrics,1
+817,digital data,digital data,1
+818,digital instrumentation,digital instrumentation,1
+819,digital media analytics,digital media analytics,1
+820,discrete event simulation,discrete event simulation,2
+821,e-commerce,e-commerce,28
+822,earth sciences,earth sciences,2
+823,ed tech,ed tech,89
+824,either,either,48
+825,end,end,2294
+826,end development,end development,27
+827,end implementation,end implementation,1
+828,engineering information migration,engineering information migration,1
+829,enterprise,enterprise,228
+830,enterprise business intelligence platforms,enterprise business intelligence platforms,1
+831,enterprise content management platforms,enterprise content management platforms,1
+832,equivalent,equivalent,241
+833,experimental design,experimental design,29
+834,experiments,experiments,84
+835,exploratory data analysis,exploratory data analysis,9
+836,feature extraction,feature extraction,2
+837,fields,fields,61
+838,financial industry,financial industry,4
+839,financial mathematics,financial mathematics,1
+840,financial services industry,financial services industry,5
+841,fintech,fintech,3
+842,focus,focus,407
+843,form,form,3650
+844,framework,framework,283
+845,full software development cycle,full software development cycle,1
+846,game development,game development,11
+847,geoscience application,geoscience application,2
+848,git,git,548
+849,good communication skills,good communication skills,3
+850,governance,governance,77
+851,graph neural networks,graph neural networks,1
+852,haves,haves,34
+853,health care sector,health care sector,1
+854,healthcare information protocols,healthcare information protocols,1
+855,high availability,high availability,7
+856,high performance computing,high performance computing,2
+857,incomplete data,incomplete data,3
+858,information technology,information technology,10
+859,inline,inline,1
+860,insightful business information,insightful business information,1
+861,interactive visualization,interactive visualization,5
+862,intermediate knowledge,intermediate knowledge,1
+863,internships,internships,20
+864,interpretation,interpretation,31
+865,inventory management,inventory management,2
+866,kdb+,kdb+,6
+867,large data environments,large data environments,1
+868,large datasets,large datasets,44
+869,large enterprises,large enterprises,4
+870,large volumes,large volumes,19
+871,learning algorithms,learning algorithms,50
+872,like operating systems,like operating systems,1
+873,linear models,linear models,5
+874,machine learning tools,machine learning tools,5
+875,majority,majority,6
+876,management,management,624
+877,manufacturing environment,manufacturing environment,1
+878,many,many,123
+879,mathematical model development,mathematical model development,1
+880,mathematical programming,mathematical programming,5
+881,measurement problems,measurement problems,2
+882,media,media,160
+883,media owner,media owner,1
+884,medical data,medical data,4
+885,migration,migration,28
+886,mind,mind,212
+887,more backend languages,more backend languages,1
+888,more popular machine learning frameworks,more popular machine learning frameworks,1
+889,more web analysis tools,more web analysis tools,1
+890,motion control,motion control,3
+891,multi-modality algorithms,multi-modality algorithms,1
+892,multiple project delivery methodologies,multiple project delivery methodologies,1
+893,multitasking,multitasking,20
+894,network analytics,network analytics,2
+895,orchestration frameworks,orchestration frameworks,1
+896,other RDBMS databases,other RDBMS databases,1
+897,other analytical methodology,other analytical methodology,1
+898,other cloud provider,other cloud provider,7
+899,other data manipulation technology,other data manipulation technology,1
+900,other methods,other methods,6
+901,other programming languages,other programming languages,7
+902,other visualization tools,other visualization tools,1
+903,owning,owning,8
+904,post-doc research workplace,post-doc research workplace,1
+905,precondition,precondition,1
+906,predictive models,predictive models,77
+907,presenting,presenting,48
+908,price elasticity,price elasticity,1
+909,pricing models,pricing models,1
+910,privacy,privacy,66
+911,probabilistic modeling,probabilistic modeling,1
+912,product management,product management,28
+913,production level AI models,production level AI models,1
+914,professional environment,professional environment,1
+915,professional services environment,professional services environment,1
+916,programing,programing,7
+917,programming language,programming language,131
+918,projects,projects,541
+919,proper usage,proper usage,3
+920,properties,properties,18
+921,providing,providing,262
+922,qualitative research,qualitative research,1
+923,quality software development,quality software development,1
+924,quantative field,quantative field,1
+925,quantitative analytics,quantitative analytics,7
+926,quantitative discipline,quantitative discipline,48
+927,queries,queries,109
+928,querying,querying,53
+929,raw clickstream data,raw clickstream data,1
+930,regression techniques,regression techniques,1
+931,related areas,related areas,11
+932,related tools,related tools,6
+933,relational database systems,relational database systems,1
+934,relevant positions,relevant positions,1
+935,relevant programming languages,relevant programming languages,1
+936,reporting packages,reporting packages,3
+937,research,research,660
+938,retail sector,retail sector,1
+939,robotics,robotics,16
+940,scalable data science,scalable data science,1
+941,scripting languages,scripting languages,24
+942,selection,selection,130
+943,selling,selling,22
+944,similar,similar,137
+945,similar data science tools,similar data science tools,1
+946,similar scripting language,similar scripting language,1
+947,similar work,similar work,3
+948,social media analytics,social media analytics,1
+949,software architecture,software architecture,8
+950,software development engineer,software development engineer,2
+951,software development workflows,software development workflows,1
+952,software systems architecture,software systems architecture,1
+953,software testing methodologies,software testing methodologies,1
+954,solution platform,solution platform,1
+955,some,some,377
+956,sophisticated presentation,sophisticated presentation,1
+957,spaCy,spaCy,10
+958,split.io,split.io,4
+959,stack web development,stack web development,1
+960,stages,stages,33
+961,startup environment,startup environment,9
+962,statistical algorithms,statistical algorithms,1
+963,statistical analytical techniques,statistical analytical techniques,1
+964,statistical data analysis,statistical data analysis,1
+965,statistical forecasting,statistical forecasting,1
+966,statistical package,statistical package,17
+967,statistical programming languages,statistical programming languages,2
+968,statistical tests,statistical tests,5
+969,statistics function,statistics function,1
+970,storytelling skills,storytelling skills,1
+971,strong emphasis,strong emphasis,2
+972,supervision environment,supervision environment,1
+973,system,system,1012
+974,system software development,system software development,1
+975,tag manager,tag manager,1
+976,tech industry,tech industry,4
+977,technical Data Analyst,technical Data Analyst,1
+978,technology,technology,696
+979,telecommunication,telecommunication,1
+980,text analytics,text analytics,8
+981,traditional media,traditional media,1
+982,transforming,transforming,63
+983,two,two,406
+984,unix,unix,1
+985,unsupervised machine learning,unsupervised machine learning,4
+986,using,using,868
+987,verbal communication skills,verbal communication skills,62
+988,visualization platforms,visualization platforms,2
+989,web analytics specialist,web analytics specialist,1
+990,web scraping,web scraping,3
+991,web services,web services,11
+992,wide data initiatives,wide data initiatives,1
+993,wide varieties,wide varieties,1
+994,word embedding,word embedding,2
+995,workbench products,workbench products,1
+996,workflow scheduling,workflow scheduling,1
+997,works,works,456
+998,Confluence,Confluence,4
+999,Jira,Jira,12
+1000,MATLAB,MATLAB,15
+1001,biotech,biotech,14
+1002,life sciences research,life sciences research,1
+1003,machine,machine,965
+1004,molecular biology,molecular biology,3
+1005,source control methodologies,source control methodologies,1
+1006,standard tools,standard tools,1

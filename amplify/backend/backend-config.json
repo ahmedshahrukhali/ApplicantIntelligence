@@ -1,30 +1,22 @@
 {
-  "auth": {
-    "cognito414a63e3": {
-      "service": "Cognito",
-      "serviceType": "managed",
-      "providerPlugin": "awscloudformation"
-    }
-  },
-  "storage": {
-    "skillbase": {
-      "service": "DynamoDB",
-      "providerPlugin": "awscloudformation"
-    }
-  },
   "function": {
-    "skillsapi": {
+    "skilllambdafunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
-      "service": "Lambda",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "skillapi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
-          "category": "storage",
-          "resourceName": "skillbase",
+          "category": "function",
+          "resourceName": "skilllambdafunction",
           "attributes": [
             "Name",
-            "Arn",
-            "StreamArn"
+            "Arn"
           ]
         }
       ]

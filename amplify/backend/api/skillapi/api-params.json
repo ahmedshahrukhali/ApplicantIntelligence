@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/file-upload",
+      "lambdaFunction": "skilllambdafunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/file-upload"
+    }
+  ],
+  "resourceName": "skillapi",
+  "apiName": "skillapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "skilllambdafunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-smfe-dev-190442-authRole",
+    "unAuthRoleName": "amplify-smfe-dev-190442-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "skilllambdafunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
