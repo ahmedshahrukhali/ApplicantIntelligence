@@ -208,7 +208,7 @@ function App() {
     //   method: "POST",
     //   body: formData
     // })
-   const res = await API.post('skillsApi', '/skills', {body: formData})
+   const res = await API.post('skillapi', '/file-upload', {body: formData})
     .then(res => res.json()).then(res1 => {
       const data1 = res1
       var count1 = Object.keys(data1).length;
