@@ -22,12 +22,8 @@ CORS(app, resources={"/file-upload": api_v1_cors_config})
 
 ###CORS
 
-
-
-
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['CORS_HEADERS'] = 'Content-Type'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
@@ -83,7 +79,6 @@ def handler():
 
 		print(type(lista))
 		resp = jsonify(newdict)
-		resp.headers.add('Access-Control-Allow-Origin', '*')
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
 		
 		### AFTER DONE SEGREGATE RESPONSIBILITY
