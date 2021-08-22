@@ -14,7 +14,9 @@ app = Flask(__name__)
 ###CORS
 
 api_v1_cors_config = {
-  "origins": ["https://cloud-branch.d3q95l5s3udko6.amplifyapp.com/"]
+  "origins": ["https://cloud-branch.d3q95l5s3udko6.amplifyapp.com/"],
+  "methods": ["OPTIONS", "GET", "POST"],
+  "allow_headers": ["Authorization"]
 }
 CORS(app, resources={"/file-upload": api_v1_cors_config})
 
