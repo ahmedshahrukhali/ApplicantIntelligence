@@ -69,23 +69,16 @@ def handler():
 
 		print(type(lista))
 		resp = jsonify(newdict)
-            
-
+		resp.headers = {
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Origin': 'https://www.example.com',
+            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+        }   
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
-		response = {
-        statusCode: 200,
-        headers: {
-            "Access-Control-Allow-Headers" : "Content-Type",
-            "Access-Control-Allow-Origin": "https://www.example.com",
-            "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
-        },
-        body: resp
-    	}
-
-
+		
 		### AFTER DONE SEGREGATE RESPONSIBILITY
-		#resp.status_code = 201
-		return response
+		resp.status_code = 201
+		return resp
 	else:
 		resp = jsonify({'message' : 'Allowed file types are txt, pdf, png, jpg, jpeg, gif'})
 		resp.status_code = 400

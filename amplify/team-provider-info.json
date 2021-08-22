@@ -15,7 +15,7 @@
       "function": {
         "skilllambdafunction": {
           "deploymentBucketName": "amplify-smfe-dev-190442-deployment",
-          "s3Key": "amplify-builds/skilllambdafunction-435870682f4d48493748-build.zip"
+          "s3Key": "amplify-builds/skilllambdafunction-4a2f6a7a475945746f52-build.zip"
         }
       }
     }
