@@ -69,11 +69,7 @@ def handler():
 
 		print(type(lista))
 		resp = jsonify(newdict)
-		resp.headers = {
-            'Access-Control-Allow-Headers': 'Content-Type',
-            'Access-Control-Allow-Origin': 'https://www.example.com',
-            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
-        }   
+		resp.headers.add('Access-Control-Allow-Origin', '*')
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
 		
 		### AFTER DONE SEGREGATE RESPONSIBILITY
