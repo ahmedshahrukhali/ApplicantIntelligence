@@ -4,15 +4,16 @@ import urllib.request
 import pandas as pd
 from flask import Flask, request, redirect, jsonify, json
 from werkzeug.utils import secure_filename
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from pyresparser import ResumeParser
 
 UPLOAD_FOLDER = "C:/Users/Irtiza/Documents/smproj1/smfe/uploads"
 
 app = Flask(__name__)
-CORS(app)
+cors = CORS(app)
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
@@ -68,15 +69,23 @@ def handler():
 
 		print(type(lista))
 		resp = jsonify(newdict)
-
+            
 
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
-		
+		response = {
+        statusCode: 200,
+        headers: {
+            "Access-Control-Allow-Headers" : "Content-Type",
+            "Access-Control-Allow-Origin": "https://www.example.com",
+            "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
+        },
+        body: resp
+    	}
+
 
 		### AFTER DONE SEGREGATE RESPONSIBILITY
-
-		resp.status_code = 201
-		return resp
+		#resp.status_code = 201
+		return response
 	else:
 		resp = jsonify({'message' : 'Allowed file types are txt, pdf, png, jpg, jpeg, gif'})
 		resp.status_code = 400
