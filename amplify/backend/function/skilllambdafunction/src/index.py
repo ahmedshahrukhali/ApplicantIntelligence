@@ -10,7 +10,19 @@ from pyresparser import ResumeParser
 UPLOAD_FOLDER = "C:/Users/Irtiza/Documents/smproj1/smfe/uploads"
 
 app = Flask(__name__)
-cors = CORS(app)
+
+###CORS
+
+api_v1_cors_config = {
+  "origins": ["https://cloud-branch.d3q95l5s3udko6.amplifyapp.com/"]
+}
+CORS(app, resources={"/file-upload": api_v1_cors_config})
+
+###CORS
+
+
+
+
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['CORS_HEADERS'] = 'Content-Type'
