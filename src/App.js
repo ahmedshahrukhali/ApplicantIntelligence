@@ -33,6 +33,10 @@ import { Amplify } from 'aws-amplify'
 import config from './aws-exports'
 import { API } from 'aws-amplify'
 
+var cors = require('cors')
+
+app.use(cors())
+
 
 Amplify.configure(config)
 

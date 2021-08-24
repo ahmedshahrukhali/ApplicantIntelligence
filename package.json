@@ -16,6 +16,8 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.11.0",
     "react-scripts": "4.0.3",
+    "serverless-python-requirements": "^5.1.1",
+    "serverless-wsgi": "^2.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
