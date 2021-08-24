@@ -71,6 +71,11 @@ def upload_file():
 
 		print(type(lista))
 		resp = jsonify(newdict)
+		resp.headers = {
+		'Access-Control-Allow-Headers': 'Content-Type',
+		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+		}
 
 
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
