@@ -13,13 +13,14 @@ app = Flask(__name__)
 
 ###CORS
 
-api_v1_cors_config = {
-  "origins": ["https://cloud-branch.d3q95l5s3udko6.amplifyapp.com/"],
-  "methods": ["OPTIONS", "GET", "POST"],
-  "allow_headers": ["Authorization"]
-}
-CORS(app, resources={"/file-upload": api_v1_cors_config})
+# api_v1_cors_config = {
+#   "origins": ["https://cloud-branch.d3q95l5s3udko6.amplifyapp.com/"],
+#   "methods": ["OPTIONS", "GET", "POST"],
+#   "allow_headers": ["Authorization"]
+# }
+# CORS(app, resources={"/file-upload": api_v1_cors_config})
 
+CORS(app)
 ###CORS
 
 app.secret_key = "secret key"
@@ -80,7 +81,15 @@ def handler():
 		print(type(lista))
 		resp = jsonify(newdict)
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
-		
+		return {
+        'statusCode': 200,
+        'headers': {
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Origin': 'https://cloud-branch.d3q95l5s3udko6.amplifyapp.com',
+            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+        },
+        'body': json.dumps(newdict)
+    	}
 		### AFTER DONE SEGREGATE RESPONSIBILITY
 		resp.status_code = 201
 		return resp
