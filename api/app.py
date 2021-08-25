@@ -76,12 +76,20 @@ def upload_file():
 
 
 		### DO ALL PROCESSING HERE FOR skill matching and sorting and extraction
-		
+		return {
+        'statusCode': 200,
+        'headers': {
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Origin': 'https://cloud-branch.d3q95l5s3udko6.amplifyapp.com',
+            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+        },
+        'body': json.dumps(newdict)
+    	}
 
 		### AFTER DONE SEGREGATE RESPONSIBILITY
 
-		resp.status_code = 201
-		return resp
+		#resp.status_code = 201
+		#return resp
 	else:
 		resp = jsonify({'message' : 'Allowed file types are txt, pdf, png, jpg, jpeg, gif'})
 		resp.status_code = 400
